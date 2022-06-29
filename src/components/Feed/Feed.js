@@ -9,6 +9,9 @@ const Feed = () => {
       <FeedHeader text="Home" />
       <TweetBox />
       <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   )
 }

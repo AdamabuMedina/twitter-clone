@@ -1,5 +1,6 @@
 
 import { ChatBubbleOutline, Repeat, FavoriteBorder, Publish } from '@mui/icons-material';
+
 const PostFooter = () => {
   return (
     <div className="post__footer">

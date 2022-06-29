@@ -1,7 +1,7 @@
 import './App.css';
 import Feed from './components/Feed/Feed';
 import Sidebar from './components/Sidebar/Sidebar';
-import Widgets from './components/Widgets/Widgets';
+// import Widgets from './components/Widgets/Widgets';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
       <Feed />
 
-      <Widgets />
+      {/* <Widgets /> */}
     </div>
   );
 }

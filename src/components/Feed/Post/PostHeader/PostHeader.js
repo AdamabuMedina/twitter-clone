@@ -1,20 +1,20 @@
 import VerifiedUser from '@mui/icons-material/VerifiedUser';
 
-const PostHeader = ({ verified, text, }) => {
+const PostHeader = ({ displayName, username, text, verified }) => {
   return (
     <div className='post__header'>
       <div className='post__headerText'>
         <h3>
-          Adam Barkinkhoev
+          {displayName}{" "}
           <span className='post__headerSpecial'>
-            <VerifiedUser className="post__badge" />
-            @adamabumedina
+            {verified && <VerifiedUser className="post__badge" />}
+            {username}
           </span>
         </h3>
       </div>
       <div className='post__headerDescription'>
         <p>
-          Какой-то текст
+          {text}
         </p>
       </div>
     </div>
